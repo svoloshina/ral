@@ -126,7 +126,7 @@ a { color: inherit; text-decoration: none; }
 
 /* PEOPLE - PI CARD */
 .ppl-wrap { display: flex; flex-direction: column; gap: 24px; }
-.grp-box { background: var(--bg2); border-radius: var(--r); padding: 32px 40px 36px; border-left: 3px solid var(--blue); }
+.grp-box { background: #eef0f4; border: 1px solid #dde1e8; border-left: 3px solid var(--blue); border-radius: var(--r); padding: 32px 40px 36px; }
 .pi-card { display: grid; grid-template-columns: 128px 1fr; gap: 32px; align-items: start; }
 .av { border-radius: 50%; overflow: hidden; background: var(--blue-tint); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 700; color: var(--blue); position: relative; }
 .av img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
