@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UCI Rehabilitation and Augmentation Lab</title>
 <meta name="description" content="UCI RAL leverages wearable robotics to understand and assist human movement, advancing rehabilitation for individuals with movement impairments.">
-<link rel="stylesheet" href="style.css?v=10">
+<link rel="stylesheet" href="style.css?v=11">
 </head>
 <body>
 
@@ -23,12 +23,14 @@
 </nav>
 
 <section class="hero">
-  <div class="hero-slide" style="background-image:url('images/home-banner-1.jpg')"></div>
+  <div class="hero-slide on" style="background-image:url('images/home-banner-1.jpg')"></div>
   <div class="hero-slide" style="background-image:url('images/home-banner-2.jpg')"></div>
   <div class="hero-slide" style="background-image:url('images/home-banner-3.jpg')"></div>
+  <button class="hero-arrow hero-prev" aria-label="Previous photo">&#8249;</button>
+  <button class="hero-arrow hero-next" aria-label="Next photo">&#8250;</button>
   <div class="hero-c">
-    <p class="hero-welcome">Welcome</p>
-    <img class="lab-name" src="images/logo-ral-white.png" alt="UCI Rehabilitation and Augmentation Lab">
+    <img class="lab-name hero-sweep" src="images/logo-ral-white.png" alt="UCI Rehabilitation and Augmentation Lab">
+    <p class="hero-dept hero-sweep">Department of Mechanical and Aerospace Engineering, UC Irvine</p>
     <a class="btn-gold" href="research.html">Explore our research</a>
     <a class="btn-outline" href="people.html">Meet the team</a>
   </div>
@@ -47,14 +49,15 @@
 
 <section class="sec sec-off">
   <div class="wrap">
-    <h2 class="sec-h"><span>Research Areas</span></h2>
-    <!-- To add a theme image, replace a placeholder div with:
+    <h2 class="sec-h"><span>Our Research</span></h2>
+    <p class="page-intro">We study how people generate, adapt, and stabilize gait under changing conditions. Our work spans three connected focus areas: understanding movement, advancing training for more effective and retained motor learning, and designing assistive devices for use with robotic therapies.</p>
+    <!-- To add a focus area image, replace a placeholder div with:
          <div class="theme-img"><img src="images/your-image.jpg" alt="..."></div> -->
     <div class="themes-grid">
       <div class="theme-card">
         <div class="theme-img theme-img-empty">Image coming soon</div>
         <div class="theme-body">
-        <div class="theme-area">Theme 1</div>
+        <div class="theme-area">Focus Area 1</div>
         <h3>Gait mechanics &amp; neural control</h3>
         <p>Manipulating mechanics and sensory information during movement to reveal how the body and nervous system coordinate locomotion.</p>
         <a href="research.html">Learn more</a>
@@ -63,7 +66,7 @@
       <div class="theme-card">
         <div class="theme-img theme-img-empty">Image coming soon</div>
         <div class="theme-body">
-        <div class="theme-area">Theme 2</div>
+        <div class="theme-area">Focus Area 2</div>
         <h3>Motor learning &amp; interventions</h3>
         <p>Developing training paradigms that leverage task error, sensory feedback, and neuromodulation to accelerate and retain motor learning.</p>
         <a href="research.html">Learn more</a>
@@ -72,7 +75,7 @@
       <div class="theme-card">
         <div class="theme-img theme-img-empty">Image coming soon</div>
         <div class="theme-body">
-        <div class="theme-area">Theme 3</div>
+        <div class="theme-area">Focus Area 3</div>
         <h3>Wearable devices for gait training</h3>
         <p>Developing device mechanics, control strategies, and feedback modalities that make wearable robotics more effective in rehabilitation.</p>
         <a href="research.html">Learn more</a>
@@ -142,5 +145,6 @@
     <span>© 2026 UCI Rehabilitation and Augmentation Lab</span>
   </div>
 </footer>
+<script src="hero.js"></script>
 </body>
 </html>
