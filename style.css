@@ -115,6 +115,16 @@ a { color: inherit; text-decoration: none; }
 .pub-title { font-size: 15px; font-weight: 600; color: var(--tx); line-height: 1.4; margin-bottom: 5px; display: block; }
 .pub-title:hover { color: var(--blue); }
 .pub-authors { font-size: 13px; color: var(--mt); }
+.pub-authors strong { color: var(--tx); font-weight: 600; }
+.pub-sec-h { margin-top: 56px; margin-bottom: 8px; }
+.wrap > .pub-sec-h:first-child { margin-top: 0; }
+.pub-item-text { grid-template-columns: 1fr; }
+.pub-cite { font-size: 13px; color: var(--mt); margin-top: 3px; }
+.pub-links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.pub-btn { font-size: 12px; font-weight: 600; color: var(--blue); border: 1.5px solid var(--blue); padding: 4px 10px; border-radius: var(--r); transition: background .15s, color .15s; }
+.pub-btn:hover { background: var(--blue); color: #fff; }
+.pub-more { margin-top: 48px; font-size: 14px; color: var(--mt); }
+.pub-more a { color: var(--blue); font-weight: 600; border-bottom: 1px solid var(--bd); }
 
 /* PARTNERS */
 .partners-logos { display: flex; align-items: center; justify-content: center; gap: 48px; flex-wrap: wrap; }
@@ -122,7 +132,7 @@ a { color: inherit; text-decoration: none; }
 .partners-logos a:hover img { transform: translateY(-2px); }
 .partner-stack { display: flex; flex-direction: column; gap: 6px; width: 190px; }
 .partners-logos .partner-stack img { width: 100%; height: auto; max-height: none; }
-.partners-label { text-align: center; font-size: 11px; font-weight: 600; color: var(--tx); letter-spacing: .1em; text-transform: uppercase; margin-bottom: 32px; }
+.partners-label { text-align: center; font-size: 16px; font-weight: 600; color: var(--tx); letter-spacing: .1em; text-transform: uppercase; margin-bottom: 32px; }
 
 /* PEOPLE - PI CARD */
 .ppl-wrap { display: flex; flex-direction: column; gap: 24px; }
@@ -153,10 +163,10 @@ a { color: inherit; text-decoration: none; }
 .p-bg { font-size: 14px; color: var(--mt); line-height: 1.5; }
 
 /* ALUMNI */
-.alumni-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 56px; }
+.alumni-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 48px; }
 .alumni-grp h4 { font-size: 12px; font-weight: 600; color: var(--mt); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 10px; }
 .alumni-list { list-style: none; }
-.alumni-list li { font-size: 15px; color: var(--mt); padding: 7px 0; border-bottom: 1px solid var(--bd); }
+.alumni-list li { font-size: 15px; color: var(--mt); padding: 4px 0; }
 
 /* RESEARCH */
 .theme-sec { padding: 64px 48px; }
@@ -183,6 +193,13 @@ a { color: inherit; text-decoration: none; }
 .join-card h3 { font-size: 17px; font-weight: 700; color: var(--tx); margin-bottom: 12px; }
 .join-card p { font-size: 14px; color: var(--mt); line-height: 1.7; }
 .join-email { display: inline-block; margin-top: 16px; font-size: 13px; font-weight: 600; color: var(--blue); }
+.join-intro { font-size: 17px; color: var(--mt); max-width: 60ch; line-height: 1.85; margin-bottom: 12px; }
+.join-inline { color: var(--blue); font-weight: 600; border-bottom: 1px solid var(--bd); }
+.join-contact { margin-top: 48px; padding: 32px; background: var(--bg2); border-radius: var(--r); border-left: 3px solid var(--gold); }
+.join-contact h3 { font-size: 17px; font-weight: 700; color: var(--tx); margin-bottom: 8px; }
+.join-contact p { font-size: 14px; color: var(--mt); }
+.join-contact p + p { margin-top: 4px; }
+.join-contact a { color: var(--blue); font-weight: 600; }
 
 /* FOOTER */
 .footer { background: #001336; padding: 56px 48px 28px; }
