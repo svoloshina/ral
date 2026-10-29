@@ -289,4 +289,5 @@ a { color: inherit; text-decoration: none; }
   .partners-logos { gap: 24px; }
   .footer { padding: 48px 20px 24px; }
 }
-@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } .hero-sweep, .page-hdr h1, .page-hdr p { animation: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } .hero-sweep, .page-hdr h1, .page-hdr p { animation: none; } }.research-participate { font-size: var(--fs-body); color: var(--mt); margin-top: 48px; }
+.research-participate a { color: var(--blue); font-weight: 600; border-bottom: 1px solid var(--bd); }
