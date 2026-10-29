@@ -166,7 +166,7 @@ a { color: inherit; text-decoration: none; }
 .av img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .av-lg { width: 128px; height: 128px; font-size: 32px; }
 .av-md { width: 84px; height: 84px; font-size: 20px; }
-.av-sm { width: 68px; height: 68px; font-size: 16px; }
+.av-sm { width: 100px; height: 100px; font-size: 24px; }
 .pi-info h2 { font-size: var(--fs-subhead); font-weight: 700; color: var(--tx); line-height: 1.2; margin-bottom: 4px; letter-spacing: -.01em; }
 .pi-title { font-size: var(--fs-body); font-weight: 600; color: var(--blue); margin-bottom: 2px; }
 .pi-dept { font-size: var(--fs-body); color: var(--mt); margin-bottom: 6px; line-height: 1.5; }
@@ -282,6 +282,7 @@ a { color: inherit; text-decoration: none; }
   .grp-box { padding: 24px 20px 28px; }
   .pi-card { grid-template-columns: 84px 1fr; gap: 18px; }
   .pi-card .av-lg, .person-card .av-lg { width: 84px; height: 84px; font-size: 20px; }
+  .person-card .av-sm { width: 68px; height: 68px; font-size: 16px; }
   .proj { grid-template-columns: 1fr; gap: 16px; }
   .alumni-cols { grid-template-columns: 1fr; }
   .pub-row { grid-template-columns: 1fr; gap: 10px; }
