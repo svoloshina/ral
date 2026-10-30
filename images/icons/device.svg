@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#003087" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Lower leg wearing the lab's ankle exoskeleton: shank strut, crossbar, ankle joint, triangular foot strut -->
+  <path stroke-width="1.75" d="M22 4 C20 10 19.5 16 20.5 23 C21.5 31 25 38 25.5 44 Q25 49 23.5 53 Q22.5 58.5 27 58.5 L53 58.5 Q57 58.5 56.5 55.5 Q55.5 53 50 51.5 L41 48.5 Q36 46.5 35.5 42 L36.5 20 L36 4"/>
+  <rect x="28.5" y="7" width="4" height="35.5" rx="1"/>
+  <path d="M18.5 21 L38.5 21"/>
+  <circle cx="30.5" cy="45" r="2.4"/>
+  <path d="M30.5 47.5 L25.5 58.5 L53 58.5 Z"/>
+</svg>
