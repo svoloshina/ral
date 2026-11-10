@@ -240,7 +240,7 @@ a { color: inherit; text-decoration: none; }
 /* PARTICIPATE - collapsible study panels (participate.js opens the one named in the URL #hash) */
 .study-intro { font-size: var(--fs-body); color: var(--mt); margin: -16px 0 24px; }
 .study-list { display: flex; flex-direction: column; gap: 16px; }
-.study { background: var(--bg2); border-left: 3px solid var(--blue); border-radius: var(--r); scroll-margin-top: 24px; }
+.study { background: var(--bg2); border-left: 3px solid var(--blue); border-radius: var(--r); scroll-margin-top: 88px; } /* clears the 64px sticky nav */
 .study-sum { display: grid; grid-template-columns: 1fr auto; column-gap: 24px; align-items: center; padding: 28px 40px; cursor: pointer; list-style: none; }
 .study-sum > span { grid-column: 1; }
 .study-sum::-webkit-details-marker { display: none; }
@@ -290,6 +290,7 @@ a { color: inherit; text-decoration: none; }
   .hero-prev { left: auto; right: 62px; }
   .sec { padding: 52px 20px; }
   .theme-hd { padding: 24px 20px; }
+  .study { scroll-margin-top: 130px; } /* taller wrapped nav on phones */
   .study-sum { padding: 20px; column-gap: 16px; }
   .study[open] > .study-hd, .study[open] > .study-body { padding: 0 20px; }
   .study[open] > .study-body { padding-bottom: 24px; }
