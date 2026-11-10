@@ -264,6 +264,7 @@ a { color: inherit; text-decoration: none; }
 .study-body ul { padding-left: 20px; }
 .study-contact { margin-top: 28px; padding: 16px 20px; background: #fff; border-left: 3px solid var(--gold); border-radius: var(--r); font-size: var(--fs-body); color: var(--tx); }
 .study-contact a { color: var(--blue); font-weight: 600; }
+.study-contact a.btn-gold { color: var(--blue-dk); font-weight: 700; margin: 14px 0; }
 .join-inline { color: var(--blue); font-weight: 600; border-bottom: 1px solid var(--bd); }
 
 /* FOOTER */
